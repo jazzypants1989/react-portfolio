@@ -1,11 +1,12 @@
 import React from 'react'
 import './About.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/peng40.jpeg'
 import {FaAward, FaCalculator, FaUsers} from 'react-icons/fa'
 
 const About = () => {
   return (
     <section id='about'>
+      
       <h5>Get to know the man, the myth, the legend...</h5>
       <h2>About Me</h2>
       <div className="container about__container">
@@ -19,21 +20,21 @@ const About = () => {
               <article className="about__card">
                 <FaAward className="about__card-icon" />
                 <h5>Experience</h5>
-                <small>I have none.</small>
+                <small>Growing every day!</small>
               </article>
               <article className="about__card">
                 <FaUsers className="about__card-icon" />
                 <h5>Clients</h5>
-                <small>Nobody has ever wanted to work with me.</small>
+                <small>Multiple freelancing clients!</small>
               </article>
               <article className="about__card">
                 <FaCalculator className="about__card-icon" />
                 <h5>Projects</h5>
-                <small>Multiple calculators!</small>
+                <small>Several calculators!</small>
               </article>
             </div>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia quisquam consequatur quae aliquid. Necessitatibus, voluptate, veniam cupiditate facere tenetur nostrum aperiam harum expedita odio sed delectus reprehenderit illum. Deleniti, nam!
+              Although my experience is very limited at the moment, I am always looking for new opportunities to grow and learn. One look at my Github commit history should be enough to quell any doubts about my determination.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk!</a>
